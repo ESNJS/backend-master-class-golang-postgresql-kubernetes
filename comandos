@@ -1,0 +1,1 @@
+migrate -path db/migrate -database "postgresql://postgres:postgres@localhost:49153/cursogo?sslmode=disable" -verbose up

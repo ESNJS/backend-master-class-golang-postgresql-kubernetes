@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/esnet/Documents/Repositorios/CursoGO'
+docker run --name postgres-test -p 49153:49153 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d postgres:latest
+make: Leaving directory 'c:/Users/esnet/Documents/Repositorios/CursoGO'
+ 
